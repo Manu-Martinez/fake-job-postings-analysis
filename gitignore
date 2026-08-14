@@ -1,0 +1,26 @@
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Power BI
+*.pbix.bak
+~$*.pbix
+
+# Python (si sumás notebooks o scripts de procesamiento)
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+.venv/
+
+# Figma / exports temporales
+*.fig.bak
+
+# Archivos temporales de edición
+*.tmp
+*.swp
+~$*
+
+# Entornos y configuración local
+.env
