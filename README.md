@@ -103,4 +103,4 @@ Los archivos CSV mantienen sus nombres de columna originales en español. Para q
 
 ---
 
-**Autor:** [Tu nombre] — Data Analyst en formación, buscando rol remoto.
+**Autor:** [Manuel Martinez] — Data Analyst en formación, buscando rol remoto.
