@@ -1,0 +1,11 @@
+fecha_aprox,campana,actor_atribuido,tecnica_entrega,malware_o_backdoor,sector_objetivo,fuente,anio
+2020-08,Operation Dream Job (origen),Lazarus Group (Corea del Norte),PDF / lector troyanizado como decoy de oferta laboral,ThreatNeedle,Defensa y gobierno,ClearSky Research,2020
+2021-01,Dream Job - variante contra investigadores,Lazarus Group (Corea del Norte / ZINC),Documento Office malicioso enviado como oferta,LCPDot,Investigadores de seguridad,Google TAG / Microsoft,2021
+2022-01,Dream Job - sector quimico,Lazarus Group (Corea del Norte),Explotacion de software vulnerable via oferta laboral,Malware de exfiltracion (sin nombre especifico reportado),Quimico e IT,Symantec,2022
+2024-08,Operation Interception,Lazarus Group (Corea del Norte),App falsa de videollamada para entrevista,Malware para macOS,Criptomonedas (Coinbase/Crypto.com como cebo),ESET / SentinelOne,2024
+2024-2025,Contagious Interview - empresas fachada,Lazarus Group / DPRK-aligned,Repositorios de GitHub/GitLab troyanizados como prueba tecnica,"BeaverTail, InvisibleFerret, OtterCookie",Cripto y desarrollo Web3,Silent Push / Microsoft,2024
+2025-03,ClickFake Interview,Lazarus Group (Corea del Norte),Tecnica ClickFix - enlace que instala backdoor,GolangGhost,Criptomonedas,Picus Security,2025
+2025-06,FIN6 / Skeleton Spider (ataque inverso a reclutadores),FIN6,"Postulante falso envia CV malicioso, dominio escrito a mano (no clickeable)",More_eggs,RRHH y reclutamiento (Retail/Hospitality históricamente),DomainTools / The Record,2025
+2025-11,Contagious Interview - servicios JSON legitimos,Lazarus Group / DPRK-aligned,Payload alojado en JSON Keeper/JSONsilo/npoint.io,Backdoor (familia OtterCookie),Desarrolladores en general,NVISO Labs,2025
+2026 (reciente),Contagious Interview - git hooks,Lazarus Group / DPRK-aligned,Pre-commit/post-checkout hooks activados al clonar repo,Loader multiplataforma,Desarrolladores,IBM X-Force,2026
+2026 (reciente),Contagious Interview - esteganografia SVG,Lazarus Group / DPRK-aligned,Payload Base64 fragmentado en comentarios HTML de SVG,RAT multi-etapa,Desarrolladores,Elastic Security Labs,2026
