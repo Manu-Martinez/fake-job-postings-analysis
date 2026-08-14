@@ -44,10 +44,6 @@ Columnas: `semestre`, `anio`, `periodo_label`, `cuentas_falsas_registro_millones
 **`campanias_hacking_documentadas.csv`** — **construida manualmente por el autor**, no descargada de ningún repositorio. Cada fila documenta una campaña real de hacking vía ofertas de empleo falsas, reportada por firmas de ciberseguridad reconocidas (Microsoft Security Blog, ESET Research, ReversingLabs, SentinelOne, Silent Push, IBM X-Force, NVISO Labs, Picus Security, DomainTools).
 Columnas: `fecha_aprox`, `anio`, `campania`, `actor_atribuido`, `tecnica_entrega`, `malware_o_backdoor`, `sector_objetivo`, `fuente`.
 
-### 3. Recopilación propia, curada a partir de fuentes de seguridad (no es un dataset descargado)
-
-**`campanias_hacking_documentadas.csv`** — **construida manualmente por el autor**, no descargada de ningún repositorio. Cada fila documenta una campaña real de hacking vía ofertas de empleo falsas, reportada por firmas de ciberseguridad reconocidas (Microsoft Security Blog, ESET Research, ReversingLabs, SentinelOne, Silent Push, IBM X-Force, NVISO Labs, Picus Security, DomainTools).
-Columnas: `fecha_aprox`, `anio`, `campania`, `actor_atribuido`, `tecnica_entrega`, `malware_o_backdoor`, `sector_objetivo`, `fuente`.
 
 **Importante:** son 10 casos documentados, no una muestra estadística representativa. No se les aplica significancia estadística — se presentan como casos concretos y verificables, cada uno con su fuente.
 
