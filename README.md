@@ -1,3 +1,5 @@
+🇦🇷 Español | 🇺🇸 [English](README.en.md)
+
 # Ofertas de empleo falsas: un problema que creció x7
 
 Análisis de datos sobre ofertas de empleo fraudulentas — desde la estafa laboral clásica hasta su uso como vector de ataques de hacking sofisticados.
@@ -103,4 +105,4 @@ Los archivos CSV mantienen sus nombres de columna originales en español. Para q
 
 ---
 
-**Autor:** [Manuel Martinez] — Data Analyst en formación, buscando rol remoto.
+**Autor:** [Tu nombre] — Data Analyst en formación, buscando rol remoto.
