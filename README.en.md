@@ -80,4 +80,4 @@ To keep the original datasets untouched, several columns and measures were added
 
 ---
 
-**Author:** [Your name] — Data Analyst in training, looking for a remote role.
+**Author:** [Manuel Martinez] — Data Analyst in training, looking for a remote role.
