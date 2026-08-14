@@ -8,6 +8,15 @@ Análisis de datos sobre ofertas de empleo fraudulentas — desde la estafa labo
 
 1 de cada 20 ofertas de empleo analizadas es falsa. Y mientras LinkedIn multiplicó por 7 la detección de cuentas falsas desde 2020, el problema evolucionó: ya no es solo estafa de dinero, es un vector real para instalar malware, con campañas documentadas activas hasta 2026.
 
+## Dashboard
+
+### Resumen Ejecutivo
+![Resumen Ejecutivo](images/dashboard_resumen_ejecutivo.png)
+
+### Radiografía del Fraude
+![Radiografía del Fraude](images/dashboard_radiografia_fraude.png)
+
+
 ## Qué incluye este repositorio
 
 - `data/` — los 7 datasets utilizados en el análisis
@@ -29,6 +38,11 @@ Columnas: `job_id`, `title`, `location`, `department`, `salary_range`, `company_
 
 **`linkedin_cuentas_falsas.csv`** — cuentas falsas detectadas por semestre, según los reportes de transparencia oficiales de LinkedIn (LinkedIn Community Report).
 Columnas: `semestre`, `anio`, `periodo_label`, `cuentas_falsas_registro_millones`, `pct_detenidas_proactivamente`, `fuente`.
+
+### 3. Recopilación propia, curada a partir de fuentes de seguridad (no es un dataset descargado)
+
+**`campanias_hacking_documentadas.csv`** — **construida manualmente por el autor**, no descargada de ningún repositorio. Cada fila documenta una campaña real de hacking vía ofertas de empleo falsas, reportada por firmas de ciberseguridad reconocidas (Microsoft Security Blog, ESET Research, ReversingLabs, SentinelOne, Silent Push, IBM X-Force, NVISO Labs, Picus Security, DomainTools).
+Columnas: `fecha_aprox`, `anio`, `campania`, `actor_atribuido`, `tecnica_entrega`, `malware_o_backdoor`, `sector_objetivo`, `fuente`.
 
 ### 3. Recopilación propia, curada a partir de fuentes de seguridad (no es un dataset descargado)
 
@@ -87,6 +101,31 @@ Los archivos CSV mantienen sus nombres de columna originales en español. Para q
 4. **LinkedIn multiplicó por 7 la detección de cuentas falsas** entre 2020 (11.6M por semestre) y 2025 (83.4M)
 5. **9 de las 10 campañas de hacking documentadas están atribuidas a Lazarus Group** (Corea del Norte) — un solo actor domina el panorama
 6. **Las técnicas evolucionaron significativamente**: de PDFs troyanizados (2020) a esteganografía en archivos SVG y git hooks maliciosos (2026)
+
+## Fuentes citadas
+
+### Datos de LinkedIn
+- LinkedIn Community Report (reportes de transparencia semestrales oficiales) — [about.linkedin.com/transparency/community-report](https://about.linkedin.com/transparency/community-report)
+- Cobertura secundaria que cita cifras específicas por semestre: Rest of World, Prospect Magazine, VerityAI
+
+### Campañas de hacking documentadas (una fuente por fila del CSV)
+| Campaña | Fuente |
+|---|---|
+| Operation Dream Job (origen, 2020) | ClearSky Research |
+| Dream Job — variante contra investigadores (2021) | Google Threat Analysis Group / Microsoft |
+| Dream Job — sector químico (2022) | Symantec |
+| Operation Interception (2024) | ESET / SentinelOne |
+| Contagious Interview — empresas fachada (2024-2025) | Silent Push / Microsoft |
+| ClickFake Interview (2025) | Picus Security |
+| FIN6 / Skeleton Spider (2025) | DomainTools Investigations / The Record |
+| Contagious Interview — servicios JSON (2025) | NVISO Labs |
+| Contagious Interview — git hooks (2026) | IBM X-Force |
+| Contagious Interview — esteganografía SVG (2026) | Elastic Security Labs |
+
+Cada fuente corresponde a un reporte público de investigación de la firma mencionada. Este proyecto solo utiliza la información descriptiva de esos reportes (fechas, actores, técnicas) — en ningún momento se accedió a muestras de malware, dominios de comando y control, ni repositorios troyanizados mencionados en dichos reportes.
+
+### Dataset académico
+- EMSCAD (Employment Scam Aegean Dataset) — Universidad del Egeo, disponible públicamente en Kaggle
 
 ## Limitaciones conocidas
 

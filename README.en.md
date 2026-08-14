@@ -14,6 +14,15 @@ Data analysis on fraudulent job postings — from classic employment scams to th
 - Interactive Power BI dashboard (two pages: Executive Summary and Fraudulent Postings)
 - Summary carousel published on LinkedIn
 
+## Dashboard
+
+### Executive Summary
+![Executive Summary](images/dashboard_resumen_ejecutivo.png)
+
+### Fraud Breakdown
+![Fraud Breakdown](images/dashboard_radiografia_fraude.png)
+
+
 ## Datasets and methodology
 
 This project combines three distinct types of sources. It's important to be transparent about the nature of each one.
@@ -63,6 +72,31 @@ To keep the original datasets untouched, several columns and measures were added
 5. **9 of the 10 documented hacking campaigns are attributed to Lazarus Group** (North Korea) — a single actor dominates the landscape
 6. **Techniques evolved significantly**: from trojanized PDFs (2020) to SVG steganography and malicious git hooks (2026)
 
+## Cited sources
+
+### LinkedIn data
+- LinkedIn Community Report (official biannual transparency reports) — [about.linkedin.com/transparency/community-report](https://about.linkedin.com/transparency/community-report)
+- Secondary coverage citing specific per-period figures: Rest of World, Prospect Magazine, VerityAI
+
+### Documented hacking campaigns (one source per CSV row)
+| Campaign | Source |
+|---|---|
+| Operation Dream Job (origin, 2020) | ClearSky Research |
+| Dream Job — variant targeting researchers (2021) | Google Threat Analysis Group / Microsoft |
+| Dream Job — chemical sector (2022) | Symantec |
+| Operation Interception (2024) | ESET / SentinelOne |
+| Contagious Interview — front companies (2024-2025) | Silent Push / Microsoft |
+| ClickFake Interview (2025) | Picus Security |
+| FIN6 / Skeleton Spider (2025) | DomainTools Investigations / The Record |
+| Contagious Interview — JSON services (2025) | NVISO Labs |
+| Contagious Interview — git hooks (2026) | IBM X-Force |
+| Contagious Interview — SVG steganography (2026) | Elastic Security Labs |
+
+Each source corresponds to a public research report from the firm mentioned. This project only uses the descriptive information from those reports (dates, actors, techniques) — at no point were malware samples, command-and-control domains, or trojanized repositories mentioned in those reports accessed.
+
+### Academic dataset
+- EMSCAD (Employment Scam Aegean Dataset) — University of the Aegean, publicly available on Kaggle
+
 ## Known limitations
 
 - EMSCAD is from 2012-2014; it doesn't necessarily represent current employment scam tactics, although the structural patterns (salary, wording) remain relevant
@@ -77,6 +111,7 @@ To keep the original datasets untouched, several columns and measures were added
 - If you can't independently verify the company, don't share your data
 - If they ask you to clone and run unknown code, test it in isolation — never on your main machine
 - If the recruiter pushes the conversation to WhatsApp or Telegram, be wary
+
 
 ---
 
