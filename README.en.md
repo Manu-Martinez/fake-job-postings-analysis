@@ -17,10 +17,10 @@ Data analysis on fraudulent job postings — from classic employment scams to th
 ## Dashboard
 
 ### Executive Summary
-![Executive Summary](images/dashboard_resumen_ejecutivo.png)
+![Executive Summary](images/dashboard_resumen_ejecutivo.PNG)
 
 ### Fraud Breakdown
-![Fraud Breakdown](images/dashboard_radiografia_fraude.png)
+![Fraud Breakdown](images/dashboard_radiografia_fraude.PNG)
 
 
 ## Datasets and methodology
