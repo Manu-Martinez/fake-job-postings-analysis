@@ -11,10 +11,10 @@ Análisis de datos sobre ofertas de empleo fraudulentas — desde la estafa labo
 ## Dashboard
 
 ### Resumen Ejecutivo
-![Resumen Ejecutivo](images/dashboard_resumen_ejecutivo.png)
+![Resumen Ejecutivo](images/dashboard_resumen_ejecutivo.PNG)
 
 ### Radiografía del Fraude
-![Radiografía del Fraude](images/dashboard_radiografia_fraude.png)
+![Radiografía del Fraude](images/dashboard_radiografia_fraude.PNG)
 
 
 ## Qué incluye este repositorio
