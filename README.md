@@ -139,6 +139,7 @@ Cada fuente corresponde a un reporte público de investigación de la firma menc
 - Si el reclutador empuja la charla a WhatsApp o Telegram, desconfiá
 
 ---
+## Autor
 
-**Autor:** **Manuel Martínez** · Data Analyst
-[LinkedIn](https://www.linkedin.com/in/manuelmartinez92) · [GitHub](https://github.com/Manu-Martinez)
+**Manuel Martínez** · Data Analyst
+[LinkedIn](https://www.linkedin.com/in/manuelmartinez92)
