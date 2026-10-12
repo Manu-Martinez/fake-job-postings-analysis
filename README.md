@@ -140,4 +140,5 @@ Cada fuente corresponde a un reporte público de investigación de la firma menc
 
 ---
 
-**Autor:** [Manuel Martinez] — Data Analyst buscando rol remoto.
+**Autor:** **Manuel Martínez** · Data Analyst
+[LinkedIn](https://www.linkedin.com/in/manuelmartinez92) · [GitHub](https://github.com/Manu-Martinez)
